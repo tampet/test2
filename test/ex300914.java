@@ -91,7 +91,7 @@ public class ex300914 {
 	            default:
 	                if(opcao!=4)
 	                {
-	                    System.out.println("Opcao invalida!!!!!");
+	                    System.out.println("Opcao invalida!!!!!!!!");
 	                }
 	           
 	        }

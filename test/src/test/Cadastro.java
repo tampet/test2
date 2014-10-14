@@ -138,5 +138,22 @@ public class Cadastro {
     public void setCPF(String CPF) {
         this.CPF = CPF;
     }
+	public Cadastro(double peso, String cPF) {
+		super();
+		this.peso = peso;
+		CPF = cPF;
+	}
+	public double getPreco() {
+		return preco;
+	}
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	public double getPrecoSemanal() {
+		return PrecoSemanal;
+	}
+	public void setPrecoSemanal(double precoSemanal) {
+		PrecoSemanal = precoSemanal;
+	}
 
 }
